@@ -6,7 +6,8 @@
 - This poc has been built on top of [Nestjs Event Sourcing Module](https://github.com/ArkerLabs/event-sourcing-nestjs) that help to manage the complexity of MongoDB integration as Event Store
 
 ## Note
-- Nestjs CQRS module enable Event Store integration only with EventStoreDB and MongoDB. Custom implementation are needed for other database integrations
+- Nestjs CQRS module support Event Store integration only with EventStoreDB and MongoDB. 
+Custom implementation are needed for other database integrations
 
 ## Dependencies
 
