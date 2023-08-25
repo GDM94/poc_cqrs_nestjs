@@ -1,8 +1,16 @@
 
-[Nest](https://github.com/kamilmysliwiec/nest) framework [CQRS module](https://github.com/kamilmysliwiec/nest-cqrs) and [Event Sourcing module](https://github.com/ArkerLabs/event-sourcing-nestjs) usage example.
+# POC CQRS WITH NESTJS 
 
-## Start MongoDb
+## Links
+- This poc has been built starting from [this working example](https://github.com/Nytyr/nest-cqrs-eventsourcing-example)
+- This poc has been built on top of [Nestjs Event Sourcing Module](https://github.com/ArkerLabs/event-sourcing-nestjs) that help to manage the complexity of MongoDB integration as Event Store
 
+## Note
+- Nestjs CQRS module enable Event Store integration only with EventStoreDB and MongoDB. Custom implementation are needed for other database integrations
+
+## Dependencies
+
+- MongoDB instance is needed to be used as Event Store
 ```
 $ docker run -d --name some-mongo -p 27017:27017 mongo
 ```
@@ -18,7 +26,3 @@ $ npm install
 ```
 $ npm run start
 ```
-
-## Stay in touch
-
-- Author - [Nytyr](https://keybase.io/nytyr)
